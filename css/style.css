@@ -1,2 +1,6 @@
 @import url(./global.css);
 @import url(./section.css);
+
+html.textomaior {
+  font-size: 150%;
+}
