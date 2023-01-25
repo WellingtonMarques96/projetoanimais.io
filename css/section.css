@@ -44,6 +44,10 @@
   grid-column: 2;
 }
 
+.animais-lista li {
+  cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar {
   width: 0.88rem;
 }
@@ -58,10 +62,10 @@
   border-right: 4px solid #faf6ed;
 }
 
-.animais-desricao {
+.animais-descricao {
   grid-column: 3;
 }
-.animais-desricao section {
+.animais-descricao section {
   margin-bottom: 3rem;
 }
 
