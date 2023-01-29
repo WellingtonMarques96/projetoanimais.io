@@ -9,11 +9,11 @@
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 
   <script>
-    document.documentElement.className += ' js';</script>
+    document.documentElement.className += ' js';</script> <!--- Script criado diretamente no html para já deixar jS não esteja ativado. foi usado += para concatenar com outra classe que possa ter. Também foi colocado um espaço para que não concatene com outra classe e dê erro ---->
 </head>
 
 <body>
-  <nav class="menu">
+  <nav class="menu js-menu">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">Faq</a></li>
@@ -22,7 +22,7 @@
     </ul>
   </nav>
 
-  <section class="animais grid-section" id="animais">
+  <section class="animais grid-section js-scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
     <ul class="animais-lista js-tabMenu">
       <li><img src="../img/imagem1.jpg" alt="Lobo cinza na floresta"></li>
@@ -125,21 +125,21 @@
       </section>
     </div>
   </section>
-  <section class="faq grid-section" id="faq">
+  <section class="faq grid-section js-scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista">
+    <dl class="faq-lista js-accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
       <dt>Eles são fantásticos?</dt>
       <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-        Qual a d</dd>
+      </dd>
       <dt>Qual a diferença?</dt>
       <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
       <dt>Como proteger?</dt>
       <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
     </dl>
   </section>
-  <section class="faq grid-section" id="contato">
+  <section class="contato grid-section js-scroll" id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="../img/mapa.png" alt="mapa">
@@ -154,7 +154,7 @@
   <footer class="copy">
     <p>Todos os direitos Reservados</p>
   </footer>
-  <script src="./navegação por tabs/script.js"></script>
+  <script src="/script.js"></script>
 </body>
 
 </html>
